@@ -67,8 +67,8 @@ h2 {
   color: rgb(109, 14, 19);
 }
 
-h3 {
-  color: #333;  /* Cor cinza escura */
+h3, h4 {
+  color: #ca2800;  /* Cor cinza escura */
   text-align: center;  /* Centraliza o texto */
 }
 
