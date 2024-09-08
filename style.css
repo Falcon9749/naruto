@@ -1,0 +1,123 @@
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f0f0f0; /* Define a cor de fundo do corpo */
+  margin: 0; /* Remove margens para evitar espaçamentos indesejados */
+  padding: 0; /* Remove o preenchimento ao redor da página */
+}
+
+/* Estilos do cabeçalho com imagem de fundo */
+header {
+  background-image: url('imagem\\raposa_fundo.jpg.webp');
+  background-repeat: no-repeat;  /* Impede a repetição da imagem */
+  background-size: cover;  /* Faz a imagem cobrir todo o espaço disponível */
+  background-position: center center;  /* Centraliza a imagem no elemento */
+  height: 60vh;  /* Usar unidade de viewport para a altura (responsiva) */  
+  justify-content: center;  /* Centraliza horizontalmente o conteúdo */
+  align-items: center;  /* Centraliza verticalmente o conteúdo */
+}
+
+/* Estilos da caixa contêiner */
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center;  /* Centraliza o conteúdo verticalmente */
+  padding: 10px;  /* Espaçamento interno */
+  border: 1px solid #ccc;  /* Borda cinza clara */
+  border-radius: 5px;  /* Arredonda os cantos da borda */
+  width: 80%;  /* Ajusta para 80% da largura da tela (responsivo) */
+  max-width: 300px;  /* Define um limite máximo para a largura */
+  margin: 0 auto;  /* Centraliza a caixa no centro da tela */
+}
+
+/* Contêiner que envolve o botão, configurado para ocupar a tela inteira */
+.button-container {
+    display: flex;
+    justify-content: center;  /* Centraliza o botão horizontalmente */
+    align-items: center;  /* Centraliza o botão verticalmente */
+    /* height: 100vh;  Define a altura do contêiner como 100% da altura da tela */
+    width: 100%;  /* Define a largura como 100% da tela */
+  }
+
+/* Estilos do botão */
+.button {
+  padding: 10px 20px;  /* Espaçamento interno do botão */
+  background-color: #4CAF50;  /* Cor de fundo verde */
+  color: white;  /* Cor do texto branco */
+  border: none;  /* Remove a borda padrão */
+  border-radius: 5px;  /* Arredonda os cantos do botão */
+  cursor: pointer;  /* Exibe o cursor de "mão" ao passar sobre o botão */
+}
+
+h1 {
+  font-size: 3rem;  /* Ajusta o tamanho da fonte para ser mais responsivo */
+  color: aqua;  /* Define a cor do texto como aqua */
+  text-align: center;  /* Centraliza o texto */
+}
+
+/* Estilos para títulos menores */
+h2 {
+  color: aqua;
+  text-align: center;  /* Centraliza o texto */
+}
+
+.sub-title {
+  text-align: center;  /* Centraliza o texto */
+  color: aqua;
+}
+
+h3 {
+  color: #333;  /* Cor cinza escura */
+  text-align: center;  /* Centraliza o texto */
+}
+
+/* Estilos de caixa para exibir personagens ou outros conteúdos */
+.character {
+  background-color: #fff;  /* Fundo branco */
+  border: 1px solid #ddd;  /* Borda cinza clara */
+  padding: 20px;  /* Espaçamento interno */
+  margin: 20px auto;  /* Espaçamento externo com centralização */
+  transition: transform 0.3s ease-in-out;  /* Animação suave ao passar o mouse */
+  max-width: 800px;  /* Limita a largura máxima da caixa */
+  
+}
+
+/* Efeito de hover para a caixa */
+.character:hover {
+  transform: scale(1.05);  /* Amplia a caixa levemente */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);  /* Adiciona uma sombra */
+}
+
+.responsive-image {
+    max-width: 100%;  /* A largura máxima da imagem será 100% do contêiner */
+    height: auto;  /* A altura ajusta-se automaticamente para manter a proporção */
+    display: block;  /* Remove o espaço em branco abaixo da imagem (opcional) */
+    margin: 0 auto;  /* Centraliza a imagem no contêiner (opcional) */
+  }
+  
+
+/* Estilos para o rodapé */
+.rodape {
+  text-align: center;  /* Centraliza o texto */
+  color: brown;  /* Define a cor marrom para o texto */
+}
+
+/* Ajustes para telas menores (mobile) */
+@media only screen and (max-width: 768px) {
+  header {
+    height: 40vh;  /* Reduz a altura do header em telas menores */
+  }
+
+  h1 {
+    font-size: 2rem;  /* Diminui o tamanho da fonte em telas menores */
+  }
+
+  .container {
+    width: 90%;  /* Aumenta a largura da caixa para ocupar mais espaço */
+  }
+
+  .character {
+    margin: 10px auto;  /* Reduz o espaçamento externo */
+    padding: 15px;  /* Reduz o espaçamento interno */
+  }
+}
