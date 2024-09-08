@@ -26,7 +26,7 @@ let dados = [
     {
         titulo: "Might Guy",
         descricao: "Might Guy se autoproclamou o grande rival de Kakashi, entretanto, apesar de parecer meio maluco, ele se tornou um dos personagens mais amados da franquia. Ele é o mentor de Rock Lee, mostrando um grande elo com seu pupilo.",
-    link: "https://pt.wikipedia.org/wiki/Lista_de_personagens_de_Naruto#Might_Guy",
+        link: "https://pt.wikipedia.org/wiki/Lista_de_personagens_de_Naruto#Might_Guy",
         imagem: "imagem/20240320-guy-naruto.webp",
     },
     {
@@ -68,7 +68,7 @@ let dados = [
     {
         titulo: "Choji Akamichi",
         descricao: "Choji era visto como um alívio cômico, mas quando a coisa aperta, ele mostra seu verdadeiro poder.",
-    link: "https://pt.wikipedia.org/wiki/Lista_de_personagens_de_Naruto#Choji_Akimichi",
+        link: "https://pt.wikipedia.org/wiki/Lista_de_personagens_de_Naruto#Choji_Akimichi",
         imagem: "imagem/20200422-choji.webp",
     },
     {
