@@ -31,3 +31,6 @@ Tema: Naruto e Naruto Shippuden
 
 ## Licença
 Este projeto é de uso livre para fins educativos e informativos. Todos os direitos sobre o conteúdo de Naruto pertencem aos seus respectivos detentores.
+
+## Link Para acessar a pagina
+https://falcon9749.github.io/naruto/
