@@ -28,6 +28,7 @@ header {
   width: 80%;  /* Ajusta para 80% da largura da tela (responsivo) */
   max-width: 300px;  /* Define um limite máximo para a largura */
   margin: 0 auto;  /* Centraliza a caixa no centro da tela */
+  text-align: center;  /* Centraliza o texto */
 }
 
 /* Contêiner que envolve o botão, configurado para ocupar a tela inteira */
